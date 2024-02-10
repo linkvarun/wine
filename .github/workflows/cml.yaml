@@ -23,6 +23,9 @@ jobs:
           # Your ML workflow goes here
           pip install -r requirements.txt
           python train.py
+
+          echo "Model Metrics"
+          cat metrics.txt
       # - name: Write CML report
         
         # run: |
