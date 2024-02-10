@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
           python train.py
 
-          echo "Model Metrics"
+          echo "Model Metricss"
           cat metrics.txt
       # - name: Write CML report
         
